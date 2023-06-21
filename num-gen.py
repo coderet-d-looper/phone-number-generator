@@ -7,9 +7,9 @@ init(autoreset=True)
 
 def generate_phone_number(operator, count):
     operator_codes = {
-        'GP': ['017', '013', '016', '015'],
-        'BL': ['019', '014', '018'],
-        'RB': ['017', '018'],
+        'GP': ['017'],
+        'BL': ['019'],
+        'RB': ['018'],
         'AT': ['016']
     }
 
@@ -24,7 +24,7 @@ def generate_phone_number(operator, count):
     for _ in range(count):
         prefix = random.choice(operator_prefixes)
         number = str(random.randint(10000000, 99999999))
-        phone_number = f"+880{prefix}{number}"
+        phone_number = f"+88{prefix}{number}"
         phone_numbers.append(phone_number)
 
     return phone_numbers
@@ -60,7 +60,7 @@ def get_user_credentials():
 def authenticate_user(username, password):
     # Perform authentication logic here
     # You can replace this with your own authentication mechanism
-    if username == "admin" and password == "password":
+    if username == "admin" and password == "212121++--":
         return True
     return False
 
