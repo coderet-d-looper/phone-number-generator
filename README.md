@@ -70,5 +70,5 @@
 
 <p align="center">
   <br>
-  <b>⭐️ Star this repository if you found it useful! <br> Connect with me on [Your Preferred Social Media](https://your-website-url.com)</b>
+  <b>⭐️ Star this repository if you found it useful! <br> Connect with me on [Facebook](https://facebook.com/coderate.d.looper)</b>
 </p>
